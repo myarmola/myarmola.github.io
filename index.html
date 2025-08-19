@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mykola Yarmola - CV</title>
+  <meta name="description" content="CV" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">NY</div>
+        <div>
+          <div class="name">Mykola Yarmola</div>
+          <div class="role">IT Engineer</div>
+        </div>
+      </div>
+      <nav class="links">
+        <a class="btn" href="mailto:myarmola@icloud.com">myarmola@icloud.com</a>
+        <a class="btn" href="https://linkedin.com/in/m-yarmola" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/myarmola" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn primary" href="cv.pdf" target="_blank" rel="noopener">Download CV</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <article class="card">
+        <h1>Hello! 👋 My name is Mykola. </h1>
+        <p class="summary">I specialize in Linux, automation, networks, and monitoring. I like simple solutions that work stably and are easy to maintain.</p>
+        <div class="meta">
+          <span class="chip">Kyiv • Ukraine</span>
+          <span class="chip">I prefer remote work</span>
+          <span class="chip">B1 English</span>
+        </div>
+      </article>
+      <aside class="card">
+        <h2>Key skills</h2>
+        <div class="skills">
+          <span class="chip">Linux (Debian family)</span>
+          <span class="chip">macOS</span>
+          <span class="chip">TCP/IP stack</span>
+          <span class="chip">Git</span>
+          <span class="chip">Bash</span>
+          <span class="chip">Ansible</span>
+          <span class="chip">GitHub Actions</span>
+          <span class="chip">Atlassian stack</span>
+          <span class="chip">Google Workspace</span>
+          <span class="chip">Grafana</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Experience</h2>
+      <div class="grid">
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="company">IT Support Engineer - Patrianna</div>
+            <div class="period">Mar 2025 - now</div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="company">Service Desk Specialist - Playson</div>
+            <div class="period">Apr 2022 - Feb 2025</div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="company">System Administrator - Newtrex</div>
+            <div class="period">Oct 2021 - Mar 2022</div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="company">System Administrator - IT Service</div>
+            <div class="period">Dec 2019 - Sep 2021</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Education</h2>
+      <p>State University of Telecommunications - Computer Engineering (2017 — 2023) (Bachelor+Master)</p>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Pet projects</h2>
+      <ul class="bullets">
+        <li><a href="#">Raspberry Pi monitoring using Prometheus + Grafana</a></li>
+        <li><a href="#">Server user management tool (Ansible+GitHub Actions)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <span>© <span id="y"></span> Mykola Yarmola</span>
+      <span>Powered by HTML + CSS • 100% GitHub Pages</span>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
