@@ -141,9 +141,16 @@ header {
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.skills div {
+  background: #f5f5f5;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 footer {
