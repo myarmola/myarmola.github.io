@@ -106,22 +106,43 @@ header {
   padding: 22px;
 }
 
-.exp-item {
+.exp-grid {
   display: grid;
-  gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
 }
+
+.exp-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.exp-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .exp-top {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  align-items: center;
 }
+
 .company {
   font-weight: 600;
+  font-size: 1rem;
+  color: #333;
 }
+
 .period {
-  color: var(--muted);
-  font-size: 14px;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
 }
 
 .university {
