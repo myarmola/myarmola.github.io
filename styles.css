@@ -157,11 +157,13 @@ header {
 }
 
 .university {
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .degree {
   color: var(--muted);
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .bullets {
