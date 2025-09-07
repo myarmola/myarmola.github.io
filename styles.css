@@ -52,15 +52,11 @@ header {
   align-items: center;
   gap: 14px;
 }
-.avatar {
+.avatar img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  display: grid;
-  place-items: center;
-  color: #002b36;
-  font-weight: 700;
+  object-fit: cover;
 }
 .name {
   font-size: 22px;
