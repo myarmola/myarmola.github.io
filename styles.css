@@ -143,13 +143,18 @@ header {
 .company {
   font-weight: 400;
   font-size: 1rem;
-  color: #d5d5d5;
+  color: #e8e8e8;
 }
 
 .period {
   font-size: 0.9rem;
-  color: #bbb;
+  color: #d0d0d0;
   font-style: normal;
+}
+
+.achievements {
+  font-size: 0.8rem;
+  color: #b8b8b8
 }
 
 .university {
